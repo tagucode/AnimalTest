@@ -22,5 +22,8 @@ class MainActivity : AppCompatActivity() {
         bigdog.say()
         Log.d("kotlintest","犬の名前は" + bigdog.name + "です。")
         Log.d("kotlintest","犬の年齢は" + bigdog.age + "です。")
+
+        dog.move()
+
     }
 }
